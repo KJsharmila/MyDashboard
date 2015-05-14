@@ -1,0 +1,71 @@
+<% content_for :title do %>My super sweet dashboard<% end %>
+ <script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+    Dashing.gridsterLayout('[{"col":1,"row":1},{"col":2,"row":1},{"col":3,"row":1},{"col":4,"row":1},{"col":5,"row":1},{"col":1,"row":2},{"col":2,"row":2},{"col":3,"row":2},{"col":4,"row":2},{"col":5,"row":2}]')
+  Dashing.widget_base_dimensions = [230, 250]
+  
+  Dashing.numColumns = 5
+});
+alert("size:" +window.screen.width);
+</script>
+<style> 
+  .hh{ background: black;
+    border-bottom: 6px;
+    border-left:  6px ;
+    border-right:  6px;
+    border-top: 6px;
+    font: italic normal 280% 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 5px 5px 5px 20px;
+  }
+</style>
+<div class="gridster">
+  <div class="hh">
+    <h1>Loan-List </h1>
+  </div>
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="jira" data-view="Number" data-title="In-progress"></div>
+    </li>
+
+    
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="jira1" data-view="Number" data-title="UAT"></div>
+            <div data-id="jira3" data-view="Number" data-title="DONE"></div>
+
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="jira5" data-view="Number" data-title="READY FOR QA"></div>
+    </li>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="jira6" data-view="Number" data-title="REOPENED"></div>
+    </li>
+    <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="jira2" data-view="Number" data-title="DEV DONE"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="SprintProgress"data-title="SprintProgress" data-id="sprint_progress"></div>
+    </li>
+    
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="jira3" data-view="Number" data-title="DONE"></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="jira4" data-view="Number" data-title="OPEN"></div>
+    </li>
+    
+   
+   <!--  <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="job1" data-view="JenkinsBuild" data-title="Build title" data-description="A little description of build" data-min="0" data-max="100"></div>
+    </li> -->
+    
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="github_status" data-view="TrafficLights"  data-title="GitHub"></div>
+    </li>
+    <li data-row="2" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="code-climate" data-view="Codeclimate" data-title="Code Climate"></div>
+    </li>
+    
+  </div>

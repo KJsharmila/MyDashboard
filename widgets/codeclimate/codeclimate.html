@@ -1,0 +1,14 @@
+<h1 class="title" data-bind="title"></h1>
+ <h3> Project : <span data-bind="name | shortenedNumber | prepend prefix"></span></h3>
+<p class="change-rate">
+GPA<h2><span class="value" data-bind="current | shortenedNumber | prepend prefix"></span></h2>
+</p>
+Test Coverage : <span data-bind="percent_covered | shortenedNumber | prepend prefix"></span>%
+
+<p class="change-rate">
+  <i data-bind-class="arrow"></i>previously <span data-bind="last"></span>
+</p>
+
+<p class="more-info" data-bind="moreinfo | raw"></p>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>

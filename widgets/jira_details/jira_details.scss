@@ -1,0 +1,64 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  steelblue;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.5);
+
+//$meter-background:  darken($background-color, 7%);
+
+// ----------------------------------------------------------------------------
+// Widget-jira-details styles
+// ----------------------------------------------------------------------------
+.widget-jira-details {
+
+  background-color: $background-color;
+  margin-bottom:10px;
+
+  input.meter {
+    //background-color: $meter-background;
+    //color: #fff;
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+
+  .done {
+    color: $title-color;
+    float:left;
+  }
+
+  .done1 {
+    color: $title-color;
+    position:relative;
+    left: 71px;
+  }
+
+  .done2 {
+    color: $title-color;
+    position:relative;
+    left: 36px;
+  }
+
+  .done3 {
+    color: $title-color;
+    position:relative;
+    left: 20px;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  p.jira-margin{
+  margin-bottom:10px;
+  }
+
+}
