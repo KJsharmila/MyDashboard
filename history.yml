@@ -1,46 +1,49 @@
 ---
 valuation: |+
-  data: {"current":21,"last":58,"id":"valuation","updatedAt":1431668815}
+  data: {"current":75,"last":61,"id":"valuation","updatedAt":1431672051}
 
 karma: |+
-  data: {"current":183230,"last":90234,"id":"karma","updatedAt":1431668815}
+  data: {"current":113343,"last":143579,"id":"karma","updatedAt":1431672051}
 
 synergy: |+
-  data: {"value":21,"id":"synergy","updatedAt":1431668815}
+  data: {"value":15,"id":"synergy","updatedAt":1431672051}
 
 github_status: |+
-  data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1431668815}
+  data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1431672051}
 
 jira5: |+
-  data: {"current":4,"id":"jira5","updatedAt":1431668765}
+  data: {"current":5,"id":"jira5","updatedAt":1431671998}
 
 jira6: |+
-  data: {"current":3,"id":"jira6","updatedAt":1431668701}
+  data: {"current":2,"id":"jira6","updatedAt":1431671999}
 
 jira: |+
-  data: {"current":0,"id":"jira","updatedAt":1431668754}
+  data: {"current":0,"id":"jira","updatedAt":1431671998}
 
 jira3: |+
-  data: {"current":1,"id":"jira3","updatedAt":1431668759}
+  data: {"current":1,"id":"jira3","updatedAt":1431671998}
 
 jira2: |+
-  data: {"current":3,"id":"jira2","updatedAt":1431668753}
+  data: {"current":3,"id":"jira2","updatedAt":1431671998}
 
 code-climate: |+
-  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.02,"id":"code-climate","updatedAt":1431668346}
+  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.07,"id":"code-climate","updatedAt":1431671938}
 
 jira4: |+
-  data: {"current":1,"id":"jira4","updatedAt":1431668758}
+  data: {"current":1,"id":"jira4","updatedAt":1431671998}
 
 jira1: |+
-  data: {"current":20,"id":"jira1","updatedAt":1431668752}
+  data: {"current":20,"id":"jira1","updatedAt":1431671998}
 
 sprint_progress: |+
   data: {"title":"Sprint Progress","min":0,"value":47,"max":100,"moreinfo":"40 / 83","id":"sprint_progress","updatedAt":1431668797}
 
 view1: |+
-  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":2,"id":"view1","updatedAt":1431668231}
+  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":2,"id":"view1","updatedAt":1431671945}
 
 AuthToken: |+
-  data: {"header":"Open Pull Requests","pulls":[{"title":"Ott 3582 refactor","repo":"stallone","updated_at":"May 12 2015,  9:05 PM","creator":"@saiatwork19"},{"title":"[#94436802] completed first 3 tasks","repo":"stallone","updated_at":"May 12 2015, 11:05 PM","creator":"@randomcanary"},{"title":"OTT-3582 and OTT-3360 welcome email_template","repo":"stallone","updated_at":"May 12 2015,  4:05 PM","creator":"@saiatwork19"},{"title":"[OTT-3072] - Update Subscription functionality for Amazon Users","repo":"stallone","updated_at":"Apr 6 2015,  3:04 PM","creator":"@pankajsingh51"},{"title":"no .rvmrc; yes .ruby-version and .ruby-gemset","repo":"bananastand","updated_at":"Jan 7 2014,  6:01 PM","creator":"@ethco"},{"title":"Converting to a Gem","repo":"cellophane","updated_at":"Feb 20 2015,  7:02 PM","creator":"@josetonyp"},{"title":"Separate recurly monkey patches","repo":"cellophane","updated_at":"Nov 4 2013, 11:11 PM","creator":"@edan"},{"title":"changing it to accept starts at","repo":"cellophane","updated_at":"Sep 17 2013,  5:09 PM","creator":"@dngo"},{"title":"fix to cellophane issue #18 updating copy based on Jeremy Engs feedback","repo":"cellophane","updated_at":"Jul 18 2014,  9:07 PM","creator":"@BlaneCordes"},{"title":"Add product code to requests, refactor some of the xml","repo":"vertex","updated_at":"Jul 18 2014,  9:07 PM","creator":"@BlaneCordes"},{"title":"cellophane update for adding new plans and removing domestic language fr...","repo":"anewstart","updated_at":"Feb 10 2015,  9:02 PM","creator":"@saiatwork19"},{"title":"[OTT-3072] - Update Subscription functionality for Amazon Users","repo":"fakeblock","updated_at":"May 14 2015,  2:05 PM","creator":"@pankajsingh51"},{"title":"Fixing compare table header","repo":"ottweb","updated_at":"May 14 2015,  9:05 PM","creator":"@luigicr18"},{"title":"OTT-3150 Device Offers","repo":"product-catalog","updated_at":"May 13 2015,  5:05 PM","creator":"@JustinV7"}],"id":"AuthToken","updatedAt":1431668005}
+  data: {"header":"Open Pull Requests","pulls":[{"title":"Added 5 capitals","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@asimha"},{"title":"Removed name","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@shashikirans"},{"title":"Country list is added","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@slakshmana"}],"id":"AuthToken","updatedAt":1431671796}
+
+openPrs: |+
+  data: {"header":"Open Pull Requests","pulls":[],"id":"openPrs","updatedAt":1431671629}
 

@@ -1,10 +1,9 @@
-require 'octokit'
+ require 'octokit'
 
 SCHEDULER.every '10m', :first_in => 0 do |job|
-  client = Octokit::Client.new(:access_token => "75b19d81bbbf6d60c227bac635f980232e997dc9")
+  client = Octokit::Client.new(:access_token => "60071a13e9d7f0816c08149b5435dd8eac26cc3b")
   my_organization = "Qwinix"
   repos = client.organization_repositories(my_organization).map { |repo| repo.name }
-   repo_name << repo.name if repo.name == 'loan_list'
 
   open_pull_requests = repos.inject([]) { |pulls, repo|
     client.pull_requests("#{my_organization}/#{repo}", :state => 'open').each do |pull|
