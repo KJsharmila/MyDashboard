@@ -1,48 +1,48 @@
 ---
 valuation: |+
-  data: {"current":75,"last":61,"id":"valuation","updatedAt":1431672051}
+  data: {"current":93,"last":31,"id":"valuation","updatedAt":1431686301}
 
 karma: |+
-  data: {"current":113343,"last":143579,"id":"karma","updatedAt":1431672051}
+  data: {"current":114041,"last":102355,"id":"karma","updatedAt":1431686301}
 
 synergy: |+
-  data: {"value":15,"id":"synergy","updatedAt":1431672051}
+  data: {"value":32,"id":"synergy","updatedAt":1431686301}
 
 github_status: |+
-  data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1431672051}
+  data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1431686300}
 
 jira5: |+
-  data: {"current":5,"id":"jira5","updatedAt":1431671998}
+  data: {"current":5,"id":"jira5","updatedAt":1431686263}
 
 jira6: |+
-  data: {"current":2,"id":"jira6","updatedAt":1431671999}
+  data: {"current":1,"id":"jira6","updatedAt":1431686262}
 
 jira: |+
-  data: {"current":0,"id":"jira","updatedAt":1431671998}
+  data: {"title":"Jira Story Details","todo":0,"open":1,"reopened":1,"inprogress":1,"qa":5,"uat":20,"dev_done":3,"resolved":1,"done":0,"total":32,"id":"jira","updatedAt":1431686295}
 
 jira3: |+
-  data: {"current":1,"id":"jira3","updatedAt":1431671998}
+  data: {"current":1,"id":"jira3","updatedAt":1431686263}
 
 jira2: |+
-  data: {"current":3,"id":"jira2","updatedAt":1431671998}
+  data: {"current":3,"id":"jira2","updatedAt":1431686265}
 
 code-climate: |+
-  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.07,"id":"code-climate","updatedAt":1431671938}
+  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.07,"id":"code-climate","updatedAt":1431685582}
 
 jira4: |+
-  data: {"current":1,"id":"jira4","updatedAt":1431671998}
+  data: {"current":1,"id":"jira4","updatedAt":1431686263}
 
 jira1: |+
-  data: {"current":20,"id":"jira1","updatedAt":1431671998}
+  data: {"current":20,"id":"jira1","updatedAt":1431686258}
 
 sprint_progress: |+
-  data: {"title":"Sprint Progress","min":0,"value":47,"max":100,"moreinfo":"40 / 83","id":"sprint_progress","updatedAt":1431668797}
+  data: {"title":"Sprint Progress","min":0,"value":47,"max":100,"moreinfo":"40 / 83","id":"sprint_progress","updatedAt":1431686297}
 
 view1: |+
-  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":2,"id":"view1","updatedAt":1431671945}
+  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":2,"id":"view1","updatedAt":1431686248}
 
 AuthToken: |+
-  data: {"header":"Open Pull Requests","pulls":[{"title":"Added 5 capitals","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@asimha"},{"title":"Removed name","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@shashikirans"},{"title":"Country list is added","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@slakshmana"}],"id":"AuthToken","updatedAt":1431671796}
+  data: {"header":"Open Pull Requests","pulls":[{"title":"Added 5 capitals","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@asimha"},{"title":"Removed name","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@shashikirans"},{"title":"Country list is added","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@slakshmana"},{"title":"Added jenkins widget","repo":"dashingproject","updated_at":"May 15 2015,  6:05 AM","creator":"@Kavyahs"}],"id":"AuthToken","updatedAt":1431672095}
 
 openPrs: |+
   data: {"header":"Open Pull Requests","pulls":[],"id":"openPrs","updatedAt":1431671629}
