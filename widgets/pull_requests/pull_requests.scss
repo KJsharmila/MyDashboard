@@ -17,7 +17,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
 // ----------------------------------------------------------------------------
 .widget-pull-requests {
 
-  background-color: teal;
+  background-color: #0099cc;
   vertical-align: top;
 
   .header {
@@ -74,4 +74,9 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     color: $moreinfo-color;
   }
 
+}
+
+.AuthToken ul{
+  height: 600px;
+  overflow: auto;
 }
