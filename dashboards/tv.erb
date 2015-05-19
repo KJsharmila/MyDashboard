@@ -1,10 +1,11 @@
  <script type='text/javascript'>
 $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
-    Dashing.gridsterLayout('[{"col":1,"row":1},{"col":2,"row":1},{"col":3,"row":1},{"col":4,"row":1},{"col":5,"row":1},{"col":6,"row":1},{"col":1,"row":2},{"col":2,"row":2},{"col":3,"row":2},{"col":4,"row":2},{"col":5,"row":2},{"col":6,"row":2}]')
-  Dashing.widget_base_dimensions = [75, 100]
+   Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
+});
+  Dashing.widget_base_dimensions = [370, 340]
   
-  Dashing.numColumns = 6
+  Dashing.numColumns = 4
 });
 </script>
 <style> 
@@ -19,51 +20,62 @@ $(function() {
     padding: 5px 5px 5px 20px;
   }
 </style>
-<div class="gridster">
+<div id="container">
+<div class="gridster" style="width: 1240px;">
   <div class="hh">
     <h1>Loan-List </h1>
   </div>
-  <ul>
-   <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+  <ul style="height: 740px; position: relative;">
+   <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" class="gs_w">
       <div data-view="SprintProgress"data-title="SprintProgress" data-id="sprint_progress"></div>
     </li>
-    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1" class="gs_w">
+      <div id="newrelic_Response_Time" data-id="newrelic_Response_Time" data-view="Newrelic" data-title="New Relic(Response Time)"></div>
+    </li>
+     
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1" class="gs_w">
       <div data-view="PullRequests" data-id="openPrs"></div>
     </li>
-<li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
-      <div data-view="PullRequests" data-id="closedPrs"></div>
-    </li>
- <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
-      <div data-id="jenkinsBuildStatus" data-view="JenkinsBuildStatus" data-title="Jenkins"></div>
-    </li>
-  
- <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
-      <div data-id="view1" data-view="JiraSprintRemainingDays"></div>
-    </li>
-
-    <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+<li data-row="1" data-col="4" data-sizex="1" data-sizey="1" class="gs_w">
       <div data-id="jira" data-view="JiraDetails"data-title="JIRA STORY DETAILS"></div>
     </li>
+ 
+     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" class="gs_w">
+      <div data-id="code-climate" data-view="Codeclimate" data-title="Code Climate"></div>
+    </li>
+
+     <li data-row="2" data-col="2" data-sizex="1" data-sizey="1" class="gs_w">
+      <div id="newrelic_Error_Rate" data-id="newrelic_Error_Rate" data-view="Newrelic" data-title="New Relic(Error Rate)"></div>
+    </li>
+  
+ <!-- <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="view1" data-view="JiraSprintRemainingDays"></div>
+    </li>
+ -->
     
-     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1" class="gs_w">
+      <div data-id="jenkinsBuildStatus" data-view="JenkinsBuildStatus" data-title="Jenkins"></div>
+    </li>
+    
+     <li data-row="2" data-col="4" data-sizex="1" data-sizey="1" class="gs_w">
       <div data-id="server_status" data-view="ServerStatus" data-title="Server Status" style="background-color: #0067d9"></div>
     </li>
-    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+   <!--  <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
       <div id="newrelic_Error_Rate" data-id="newrelic_Error_Rate" data-view="Newrelic" data-title="New Relic(Error Rate)"></div>
     </li>
     <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
       <div id="newrelic_Response_Time" data-id="newrelic_Response_Time" data-view="Newrelic" data-title="New Relic(Response Time)"></div>
     </li>
 
-    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+    <!-- <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
       <div id="newrelic_Throughput" data-id="newrelic_Throughput" data-view="Newrelic" data-title="New Relic(RPM)"></div>
     </li>
 
     <li data-row="2" data-col="5" data-sizex="1" data-sizey="1">
       <div id="newrelic_Apdex" data-id="newrelic_Apdex" data-view="Newrelic" data-title="New Relic(Apdex)"></div>
-    </li>
-    <li data-row="2" data-col="6" data-sizex="1" data-sizey="1">
+    </li> -->
+   <!--  <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
       <div data-id="code-climate" data-view="Codeclimate" data-title="Code Climate"></div>
-    </li>
+    </li> -->
     </ul>
   </div>
