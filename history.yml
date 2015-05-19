@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":86,"last":68,"id":"valuation","updatedAt":1432014136}
+  data: {"current":51,"last":3,"id":"valuation","updatedAt":1432015321}
 
 karma: |+
-  data: {"current":97675,"last":157210,"id":"karma","updatedAt":1432014136}
+  data: {"current":32089,"last":44036,"id":"karma","updatedAt":1432015321}
 
 synergy: |+
-  data: {"value":24,"id":"synergy","updatedAt":1432014136}
+  data: {"value":97,"id":"synergy","updatedAt":1432015321}
 
 github_status: |+
   data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1432013140}
@@ -27,7 +27,7 @@ jira2: |+
   data: {"current":0,"id":"jira2","updatedAt":1432013109}
 
 code-climate: |+
-  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.39,"id":"code-climate","updatedAt":1432013415}
+  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.39,"id":"code-climate","updatedAt":1432014900}
 
 jira4: |+
   data: {"current":0,"id":"jira4","updatedAt":1432013110}
@@ -36,10 +36,10 @@ jira1: |+
   data: {"current":3,"id":"jira1","updatedAt":1432013121}
 
 sprint_progress: |+
-  data: {"title":"Sprint Progress","min":0,"value":8,"max":100,"moreinfo":"7 / 83","id":"sprint_progress","updatedAt":1432014119}
+  data: {"title":"Sprint Progress","min":0,"value":106,"max":100,"moreinfo":"7 / 6","id":"sprint_progress","updatedAt":1432015310}
 
 view1: |+
-  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":0,"id":"view1","updatedAt":1432014070}
+  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":0,"id":"view1","updatedAt":1432014930}
 
 AuthToken: |+
   data: {"header":"Open Pull Requests","pulls":[{"title":"Added 5 capitals","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@asimha"},{"title":"Removed name","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@shashikirans"},{"title":"Country list is added","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@slakshmana"},{"title":"Added jenkins widget","repo":"dashingproject","updated_at":"May 15 2015,  6:05 AM","creator":"@Kavyahs"}],"id":"AuthToken","updatedAt":1431672095}
@@ -49,4 +49,7 @@ openPrs: |+
 
 closedPrs: |+
   data: {"header":"Close Pull Requests","pulls":[{"title":"[development code_refactor]- If any association is missing in any loan application, response is …","repo":"loan_list","updated_at":"May 18 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development password_reset_bug] Password reset bug","repo":"loan_list","updated_at":"May 18 2015,  7:05 AM","creator":"@raghugjoshi"},{"title":"Amount Filter Api, removed unwanted codes and changes in admin role method","repo":"loan_list","updated_at":"May 18 2015,  9:05 AM","creator":"@shashikirans"},{"title":"[development spec_bug_fix]- property_addresses are arranged by city ASC","repo":"loan_list","updated_at":"May 15 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development specs_bug_fix]- spec is modified as per password validation requirement change","repo":"loan_list","updated_at":"May 15 2015,  5:05 AM","creator":"@raghugjoshi"},{"title":"[development user_password_validation] User password validation","repo":"loan_list","updated_at":"May 15 2015,  5:05 AM","creator":"@raghugjoshi"},{"title":"[filter-api]-->[Development] enable search for lender","repo":"loan_list","updated_at":"May 15 2015, 10:05 AM","creator":"@RaviShankarArya"},{"title":"Added simplecov gem to see test coverage locally","repo":"loan_list","updated_at":"May 14 2015, 12:05 PM","creator":"@sasikumargn"},{"title":"[loan98] added spec for admin controller","repo":"loan_list","updated_at":"May 14 2015, 12:05 PM","creator":"@shashikirans"},{"title":"Fixed failing spec","repo":"loan_list","updated_at":"May 13 2015, 12:05 PM","creator":"@sasikumargn"},{"title":"Loan-98a List users based on role","repo":"loan_list","updated_at":"May 14 2015,  8:05 AM","creator":"@shashikirans"},{"title":"[development loan-62] Loan 62","repo":"loan_list","updated_at":"May 13 2015,  4:05 AM","creator":"@raghugjoshi"},{"title":"list of all unique locations","repo":"loan_list","updated_at":"May 13 2015,  4:05 AM","creator":"@RaviShankarArya"},{"title":"[Loan-197a] Removed validation for referal information","repo":"loan_list","updated_at":"May 12 2015, 12:05 PM","creator":"@shashikirans"},{"title":"Loan-98 Create lender and admin account and listing all admins and lenders in admin page…","repo":"loan_list","updated_at":"May 13 2015,  8:05 AM","creator":"@shashikirans"},{"title":"[loan-179]-->[Development] API: Build the Bank Admin \"Status\" Filter","repo":"loan_list","updated_at":"May 12 2015,  3:05 AM","creator":"@RaviShankarArya"},{"title":"LOAN-201 : Added API for updating loan status","repo":"loan_list","updated_at":"May 11 2015, 11:05 AM","creator":"@sasikumargn"},{"title":"[development test_coverage]- Exclude paths are modified","repo":"loan_list","updated_at":"May 11 2015,  9:05 AM","creator":"@raghugjoshi"},{"title":"[development test_coverage]- .codeclimate.yml is added to ignore some files from analysis","repo":"loan_list","updated_at":"May 11 2015,  4:05 AM","creator":"@raghugjoshi"},{"title":"[loan-201]-->[Development]rake task to import loan_application status","repo":"loan_list","updated_at":"May 8 2015, 12:05 PM","creator":"@RaviShankarArya"},{"title":"[LOAN-177]-->[Development]\tAPI: Build the Bank Admin \"Location\",\"Amount\",\"Loan_type\",\"Lender\" Filter","repo":"loan_list","updated_at":"May 8 2015,  8:05 AM","creator":"@RaviShankarArya"},{"title":"[development gem_versioning]- All the gems are versioned","repo":"loan_list","updated_at":"May 7 2015,  1:05 PM","creator":"@raghugjoshi"},{"title":"Referral Information tile and related rspec","repo":"loan_list","updated_at":"May 7 2015,  1:05 PM","creator":"@shashikirans"},{"title":"[development security_fix]- Hard coded credentials are replaced with environmental variables","repo":"loan_list","updated_at":"May 5 2015, 12:05 PM","creator":"@raghugjoshi"},{"title":"Loan 167","repo":"loan_list","updated_at":"May 4 2015,  8:05 AM","creator":"@jkalderonkiros"},{"title":"[development credentials_security] Credentials security","repo":"loan_list","updated_at":"May 4 2015,  3:05 AM","creator":"@raghugjoshi"},{"title":"[development add_assignee_id]- assignee_id is added to loan card api","repo":"loan_list","updated_at":"Apr 30 2015,  6:04 AM","creator":"@raghugjoshi"},{"title":"[Loan sessions] sending roles in sessions and related spec","repo":"loan_list","updated_at":"Apr 30 2015,  4:04 AM","creator":"@shashikirans"},{"title":"[development loan-168] Loan-168","repo":"loan_list","updated_at":"Apr 29 2015,  1:04 PM","creator":"@raghugjoshi"},{"title":"[development test_coverage_fix]- Unwanted method is removed","repo":"loan_list","updated_at":"Apr 28 2015, 10:04 AM","creator":"@raghugjoshi"}],"id":"closedPrs","updatedAt":1432012221}
+
+server_status: |+
+  data: {"items":[{"label":"Loan UAT","value":1,"arrow":"icon-ok-sign","color":"green"}],"id":"server_status","updatedAt":1432015260}
 
