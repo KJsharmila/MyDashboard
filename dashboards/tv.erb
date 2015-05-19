@@ -3,7 +3,7 @@
 $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
     Dashing.gridsterLayout('[{"col":1,"row":1},{"col":2,"row":1},{"col":3,"row":1},{"col":4,"row":1},{"col":5,"row":1},{"col":1,"row":2},{"col":2,"row":2},{"col":3,"row":2},{"col":4,"row":2},{"col":5,"row":2}]')
-  Dashing.widget_base_dimensions = [280, 250]
+  Dashing.widget_base_dimensions = [20, 200]
   
   Dashing.numColumns = 5
 });
@@ -35,13 +35,15 @@ alert("size:" +window.screen.width);
  <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="jenkinsBuildStatus" data-view="JenkinsBuildStatus" data-title="Jenkins"></div>
     </li>
+  
+ <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="view1" data-view="JiraSprintRemainingDays"></div>
+    </li>
 
     <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
       <div data-id="jira" data-view="JiraDetails"data-title="JIRA STORY DETAILS"></div>
     </li>
-    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-view="SprintProgress"data-title="SprintProgress" data-id="sprint_progress"></div>
-    </li>
+    
      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="server_status" data-view="ServerStatus" data-title="Server Status" style="background-color: #0067d9"></div>
     </li>
@@ -62,5 +64,5 @@ alert("size:" +window.screen.width);
     <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
       <div data-id="code-climate" data-view="Codeclimate" data-title="Code Climate"></div>
     </li>
-    
+    </ul>
   </div>

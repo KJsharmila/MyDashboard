@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":51,"last":3,"id":"valuation","updatedAt":1432015321}
+  data: {"current":95,"last":84,"id":"valuation","updatedAt":1432019324}
 
 karma: |+
-  data: {"current":32089,"last":44036,"id":"karma","updatedAt":1432015321}
+  data: {"current":138307,"last":10481,"id":"karma","updatedAt":1432019324}
 
 synergy: |+
-  data: {"value":97,"id":"synergy","updatedAt":1432015321}
+  data: {"value":71,"id":"synergy","updatedAt":1432019324}
 
 github_status: |+
   data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1432013140}
@@ -27,7 +27,7 @@ jira2: |+
   data: {"current":0,"id":"jira2","updatedAt":1432013109}
 
 code-climate: |+
-  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.39,"id":"code-climate","updatedAt":1432014900}
+  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.39,"id":"code-climate","updatedAt":1432019261}
 
 jira4: |+
   data: {"current":0,"id":"jira4","updatedAt":1432013110}
@@ -36,10 +36,10 @@ jira1: |+
   data: {"current":3,"id":"jira1","updatedAt":1432013121}
 
 sprint_progress: |+
-  data: {"title":"Sprint Progress","min":0,"value":106,"max":100,"moreinfo":"7 / 6","id":"sprint_progress","updatedAt":1432015310}
+  data: {"title":"Sprint Progress","min":0,"value":181,"max":100,"moreinfo":"12 / 6","id":"sprint_progress","updatedAt":1432019246}
 
 view1: |+
-  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":0,"id":"view1","updatedAt":1432014930}
+  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":0,"id":"view1","updatedAt":1432019270}
 
 AuthToken: |+
   data: {"header":"Open Pull Requests","pulls":[{"title":"Added 5 capitals","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@asimha"},{"title":"Removed name","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@shashikirans"},{"title":"Country list is added","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@slakshmana"},{"title":"Added jenkins widget","repo":"dashingproject","updated_at":"May 15 2015,  6:05 AM","creator":"@Kavyahs"}],"id":"AuthToken","updatedAt":1431672095}
@@ -51,5 +51,17 @@ closedPrs: |+
   data: {"header":"Close Pull Requests","pulls":[{"title":"[development code_refactor]- If any association is missing in any loan application, response is …","repo":"loan_list","updated_at":"May 18 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development password_reset_bug] Password reset bug","repo":"loan_list","updated_at":"May 18 2015,  7:05 AM","creator":"@raghugjoshi"},{"title":"Amount Filter Api, removed unwanted codes and changes in admin role method","repo":"loan_list","updated_at":"May 18 2015,  9:05 AM","creator":"@shashikirans"},{"title":"[development spec_bug_fix]- property_addresses are arranged by city ASC","repo":"loan_list","updated_at":"May 15 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development specs_bug_fix]- spec is modified as per password validation requirement change","repo":"loan_list","updated_at":"May 15 2015,  5:05 AM","creator":"@raghugjoshi"},{"title":"[development user_password_validation] User password validation","repo":"loan_list","updated_at":"May 15 2015,  5:05 AM","creator":"@raghugjoshi"},{"title":"[filter-api]-->[Development] enable search for lender","repo":"loan_list","updated_at":"May 15 2015, 10:05 AM","creator":"@RaviShankarArya"},{"title":"Added simplecov gem to see test coverage locally","repo":"loan_list","updated_at":"May 14 2015, 12:05 PM","creator":"@sasikumargn"},{"title":"[loan98] added spec for admin controller","repo":"loan_list","updated_at":"May 14 2015, 12:05 PM","creator":"@shashikirans"},{"title":"Fixed failing spec","repo":"loan_list","updated_at":"May 13 2015, 12:05 PM","creator":"@sasikumargn"},{"title":"Loan-98a List users based on role","repo":"loan_list","updated_at":"May 14 2015,  8:05 AM","creator":"@shashikirans"},{"title":"[development loan-62] Loan 62","repo":"loan_list","updated_at":"May 13 2015,  4:05 AM","creator":"@raghugjoshi"},{"title":"list of all unique locations","repo":"loan_list","updated_at":"May 13 2015,  4:05 AM","creator":"@RaviShankarArya"},{"title":"[Loan-197a] Removed validation for referal information","repo":"loan_list","updated_at":"May 12 2015, 12:05 PM","creator":"@shashikirans"},{"title":"Loan-98 Create lender and admin account and listing all admins and lenders in admin page…","repo":"loan_list","updated_at":"May 13 2015,  8:05 AM","creator":"@shashikirans"},{"title":"[loan-179]-->[Development] API: Build the Bank Admin \"Status\" Filter","repo":"loan_list","updated_at":"May 12 2015,  3:05 AM","creator":"@RaviShankarArya"},{"title":"LOAN-201 : Added API for updating loan status","repo":"loan_list","updated_at":"May 11 2015, 11:05 AM","creator":"@sasikumargn"},{"title":"[development test_coverage]- Exclude paths are modified","repo":"loan_list","updated_at":"May 11 2015,  9:05 AM","creator":"@raghugjoshi"},{"title":"[development test_coverage]- .codeclimate.yml is added to ignore some files from analysis","repo":"loan_list","updated_at":"May 11 2015,  4:05 AM","creator":"@raghugjoshi"},{"title":"[loan-201]-->[Development]rake task to import loan_application status","repo":"loan_list","updated_at":"May 8 2015, 12:05 PM","creator":"@RaviShankarArya"},{"title":"[LOAN-177]-->[Development]\tAPI: Build the Bank Admin \"Location\",\"Amount\",\"Loan_type\",\"Lender\" Filter","repo":"loan_list","updated_at":"May 8 2015,  8:05 AM","creator":"@RaviShankarArya"},{"title":"[development gem_versioning]- All the gems are versioned","repo":"loan_list","updated_at":"May 7 2015,  1:05 PM","creator":"@raghugjoshi"},{"title":"Referral Information tile and related rspec","repo":"loan_list","updated_at":"May 7 2015,  1:05 PM","creator":"@shashikirans"},{"title":"[development security_fix]- Hard coded credentials are replaced with environmental variables","repo":"loan_list","updated_at":"May 5 2015, 12:05 PM","creator":"@raghugjoshi"},{"title":"Loan 167","repo":"loan_list","updated_at":"May 4 2015,  8:05 AM","creator":"@jkalderonkiros"},{"title":"[development credentials_security] Credentials security","repo":"loan_list","updated_at":"May 4 2015,  3:05 AM","creator":"@raghugjoshi"},{"title":"[development add_assignee_id]- assignee_id is added to loan card api","repo":"loan_list","updated_at":"Apr 30 2015,  6:04 AM","creator":"@raghugjoshi"},{"title":"[Loan sessions] sending roles in sessions and related spec","repo":"loan_list","updated_at":"Apr 30 2015,  4:04 AM","creator":"@shashikirans"},{"title":"[development loan-168] Loan-168","repo":"loan_list","updated_at":"Apr 29 2015,  1:04 PM","creator":"@raghugjoshi"},{"title":"[development test_coverage_fix]- Unwanted method is removed","repo":"loan_list","updated_at":"Apr 28 2015, 10:04 AM","creator":"@raghugjoshi"}],"id":"closedPrs","updatedAt":1432012221}
 
 server_status: |+
-  data: {"items":[{"label":"Loan UAT","value":1,"arrow":"icon-ok-sign","color":"green"}],"id":"server_status","updatedAt":1432015260}
+  data: {"items":[{"label":"Loan UAT","value":1,"arrow":"icon-ok-sign","color":"green"}],"id":"server_status","updatedAt":1432019261}
+
+newrelic_Apdex: |+
+  data: {"current":0.86,"points":[{"x":55,"y":0},{"x":56,"y":0},{"x":57,"y":0},{"x":58,"y":0},{"x":59,"y":0},{"x":60,"y":0.87},{"x":61,"y":0.87},{"x":62,"y":0.88},{"x":63,"y":0.86},{"x":64,"y":0.86},{"x":65,"y":0.85},{"x":66,"y":0.85},{"x":67,"y":0.9},{"x":68,"y":0.9},{"x":69,"y":0.95},{"x":70,"y":0.89},{"x":71,"y":0.83},{"x":72,"y":0.86},{"x":73,"y":0.86},{"x":74,"y":0.89},{"x":75,"y":0.88},{"x":76,"y":0.88},{"x":77,"y":0.83},{"x":78,"y":0.79},{"x":79,"y":0.83},{"x":80,"y":0.86},{"x":81,"y":0.81},{"x":82,"y":0.88},{"x":83,"y":0.86},{"x":84,"y":0.83},{"x":85,"y":0.83},{"x":86,"y":0.88},{"x":87,"y":0.83},{"x":88,"y":0.9},{"x":89,"y":0.9},{"x":90,"y":0.93},{"x":91,"y":0.91},{"x":92,"y":0.83},{"x":93,"y":0.77},{"x":94,"y":0.8},{"x":95,"y":0.81},{"x":96,"y":0.73},{"x":97,"y":0.68},{"x":98,"y":0.86},{"x":99,"y":0.89},{"x":100,"y":0.91},{"x":101,"y":0.89},{"x":102,"y":0.79},{"x":103,"y":0.81},{"x":104,"y":0.81},{"x":105,"y":0.83},{"x":106,"y":0.88},{"x":107,"y":0.88},{"x":108,"y":0.88},{"x":109,"y":0.88},{"x":110,"y":0.9},{"x":111,"y":0.93},{"x":112,"y":0.93},{"x":113,"y":0.91},{"x":114,"y":0.86}],"id":"newrelic_Apdex","updatedAt":1432019320}
+
+newrelic_Throughput: |+
+  data: {"current":4.67,"points":[{"x":55,"y":0},{"x":56,"y":0},{"x":57,"y":0},{"x":58,"y":0},{"x":59,"y":0},{"x":60,"y":4.67},{"x":61,"y":4.67},{"x":62,"y":2.9},{"x":63,"y":2.0},{"x":64,"y":2.0},{"x":65,"y":3.48},{"x":66,"y":3.33},{"x":67,"y":3.67},{"x":68,"y":3.67},{"x":69,"y":4.52},{"x":70,"y":2.67},{"x":71,"y":2.0},{"x":72,"y":2.71},{"x":73,"y":3.67},{"x":74,"y":4.67},{"x":75,"y":5.0},{"x":76,"y":4.67},{"x":77,"y":3.33},{"x":78,"y":2.33},{"x":79,"y":2.0},{"x":80,"y":2.33},{"x":81,"y":3.0},{"x":82,"y":2.33},{"x":83,"y":2.33},{"x":84,"y":2.67},{"x":85,"y":2.67},{"x":86,"y":3.31},{"x":87,"y":2.33},{"x":88,"y":3.67},{"x":89,"y":5.35},{"x":90,"y":5.0},{"x":91,"y":4.0},{"x":92,"y":3.33},{"x":93,"y":3.33},{"x":94,"y":3.0},{"x":95,"y":2.67},{"x":96,"y":5.0},{"x":97,"y":3.33},{"x":98,"y":2.33},{"x":99,"y":3.0},{"x":100,"y":3.67},{"x":101,"y":3.33},{"x":102,"y":4.0},{"x":103,"y":6.0},{"x":104,"y":6.0},{"x":105,"y":8.0},{"x":106,"y":8.0},{"x":107,"y":8.0},{"x":108,"y":6.67},{"x":109,"y":5.67},{"x":110,"y":8.0},{"x":111,"y":9.33},{"x":112,"y":9.33},{"x":113,"y":5.67},{"x":114,"y":4.67}],"id":"newrelic_Throughput","updatedAt":1432019320}
+
+newrelic_Response_Time: |+
+  data: {"current":462.0,"points":[{"x":55,"y":0},{"x":56,"y":0},{"x":57,"y":0},{"x":58,"y":0},{"x":59,"y":0},{"x":60,"y":420.0},{"x":61,"y":420.0},{"x":62,"y":402.0},{"x":63,"y":310.0},{"x":64,"y":352.0},{"x":65,"y":334.0},{"x":66,"y":334.0},{"x":67,"y":318.0},{"x":68,"y":318.0},{"x":69,"y":303.0},{"x":70,"y":329.0},{"x":71,"y":369.0},{"x":72,"y":347.0},{"x":73,"y":322.0},{"x":74,"y":322.0},{"x":75,"y":342.0},{"x":76,"y":335.0},{"x":77,"y":333.0},{"x":78,"y":369.0},{"x":79,"y":364.0},{"x":80,"y":366.0},{"x":81,"y":377.0},{"x":82,"y":332.0},{"x":83,"y":317.0},{"x":84,"y":338.0},{"x":85,"y":338.0},{"x":86,"y":326.0},{"x":87,"y":332.0},{"x":88,"y":322.0},{"x":89,"y":351.0},{"x":90,"y":342.0},{"x":91,"y":392.0},{"x":92,"y":523.0},{"x":93,"y":569.0},{"x":94,"y":506.0},{"x":95,"y":351.0},{"x":96,"y":692.0},{"x":97,"y":670.0},{"x":98,"y":518.0},{"x":99,"y":371.0},{"x":100,"y":369.0},{"x":101,"y":367.0},{"x":102,"y":467.0},{"x":103,"y":485.0},{"x":104,"y":485.0},{"x":105,"y":472.0},{"x":106,"y":414.0},{"x":107,"y":414.0},{"x":108,"y":414.0},{"x":109,"y":390.0},{"x":110,"y":371.0},{"x":111,"y":338.0},{"x":112,"y":354.0},{"x":113,"y":380.0},{"x":114,"y":462.0}],"id":"newrelic_Response_Time","updatedAt":1432019320}
+
+jenkinsBuildStatus: |+
+  data: {"failedJobs":[],"succeededJobs":[],"failed":false,"id":"jenkinsBuildStatus","updatedAt":1432018585}
 

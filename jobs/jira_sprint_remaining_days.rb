@@ -1,5 +1,4 @@
 # Displays the board name, sprint name and remaining days for the active sprint for a specific board in Jira Agile
-
 require 'net/http'
 require 'json'
 require 'time'
