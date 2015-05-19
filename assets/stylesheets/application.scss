@@ -92,9 +92,9 @@ h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 h1 {
-  margin-bottom: 12px;
+  margin-bottom: 1px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 h2 {
@@ -245,6 +245,15 @@ vertical-align: middle;
 
 #container {
   padding-top: 5px;
+}
+h1.title
+{
+  color: #fff;
+font-size: 25px;
+position: absolute;
+top:20px;
+text-align: center;
+
 }
 
 
