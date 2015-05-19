@@ -17,7 +17,7 @@ SCHEDULER.every '10s', :first_in => 0 do |job|
         creator: "@" + pull.user.login,
         })
     end
-    pulls[0..3]
+    pulls[0..1]
   }
   send_event('closedPrs', { header: "Close Pull Requests", pulls: close_pull_requests })
 end

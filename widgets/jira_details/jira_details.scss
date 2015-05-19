@@ -1,6 +1,4 @@
-// ----------------------------------------------------------------------------
-// Sass declarations
-// ----------------------------------------------------------------------------
+ // ----------------------------------------------------------------------------
 $background-color:  steelblue;
 
 $title-color:       rgba(255, 255, 255, 0.7);
@@ -28,25 +26,20 @@ $moreinfo-color:    rgba(255, 255, 255, 0.5);
 
   .done {
     color: $title-color;
+    font-weight: bold;
     float:left;
+    width : 180px;
+    left: 20px;
+    text-align: left
   }
 
   .done1 {
     color: $title-color;
-    position:relative;
+    font-weight: bold;
+    width : 40px;
     left: 71px;
-  }
-
-  .done2 {
-    color: $title-color;
-    position:relative;
-    left: 36px;
-  }
-
-  .done3 {
-    color: $title-color;
-    position:relative;
-    left: 20px;
+    float:right;
+    text-align: left
   }
 
   .more-info {
@@ -58,7 +51,8 @@ $moreinfo-color:    rgba(255, 255, 255, 0.5);
   }
 
   p.jira-margin{
-  margin-bottom:10px;
+    font-weight: bold;
+  margin-bottom:20px;
   }
 
 }

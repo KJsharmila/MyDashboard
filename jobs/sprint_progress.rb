@@ -3,7 +3,7 @@ require 'jira'
 
 SCHEDULER.every '10s', :first_in => 0 do |job|
   @client = JIRA::Client.new({
-    :username => "Ravi Shankar",
+    :username => "akumar",
     :password => "Qwinix123",
     :site => "https://qwinix.atlassian.net/secure/RapidBoard.jspa?rapidView=77&projectKey=Loan",
     :auth_type => :basic,
