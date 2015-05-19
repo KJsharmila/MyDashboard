@@ -1,7 +1,7 @@
 require 'octokit'
 require 'time'
-SCHEDULER.every '10s', :first_in => 0 do |job|
-  client = Octokit::Client.new(:access_token => "60071a13e9d7f0816c08149b5435dd8eac26cc3b")
+SCHEDULER.every '10m', :first_in => 0 do |job|
+  client = Octokit::Client.new(:access_token => "d04734e9f5a7d1cc9d81eaa5f987eb5f324edb28")
   my_organization = "Qwinix"
   repo_name = []
   client.organization_repositories(my_organization).map do |repo| 
@@ -17,7 +17,7 @@ SCHEDULER.every '10s', :first_in => 0 do |job|
         creator: "@" + pull.user.login,
         })
     end
-    pulls[0..1]
+    pulls[0..2]
   }
   send_event('closedPrs', { header: "Close Pull Requests", pulls: close_pull_requests })
 end
