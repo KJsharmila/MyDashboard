@@ -1,12 +1,12 @@
 ---
 valuation: |+
-  data: {"current":32,"last":27,"id":"valuation","updatedAt":1432021661}
+  data: {"current":32,"last":1,"id":"valuation","updatedAt":1432025544}
 
 karma: |+
-  data: {"current":59179,"last":183420,"id":"karma","updatedAt":1432021661}
+  data: {"current":155536,"last":168795,"id":"karma","updatedAt":1432025544}
 
 synergy: |+
-  data: {"value":76,"id":"synergy","updatedAt":1432021661}
+  data: {"value":58,"id":"synergy","updatedAt":1432025544}
 
 github_status: |+
   data: {"status":"green","message":"Everything operating normally.","id":"github_status","updatedAt":1432013140}
@@ -27,7 +27,7 @@ jira2: |+
   data: {"current":0,"id":"jira2","updatedAt":1432013109}
 
 code-climate: |+
-  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.39,"id":"code-climate","updatedAt":1432021508}
+  data: {"current":4.0,"last":4.0,"name":"Loan_list","percent_covered":91.39,"id":"code-climate","updatedAt":1432025456}
 
 jira4: |+
   data: {"current":0,"id":"jira4","updatedAt":1432013110}
@@ -36,32 +36,32 @@ jira1: |+
   data: {"current":3,"id":"jira1","updatedAt":1432013121}
 
 sprint_progress: |+
-  data: {"title":"Sprint Progress","min":0,"value":181,"max":100,"moreinfo":"12 / 6","id":"sprint_progress","updatedAt":1432019246}
+  data: {"title":"Sprint Progress","min":0,"value":75,"max":100,"moreinfo":"24 / 32","id":"sprint_progress","updatedAt":1432025478}
 
 view1: |+
-  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":0,"id":"view1","updatedAt":1432021535}
+  data: {"viewName":"Loan Application Management","sprintName":"Sprint 5","daysRemaining":0,"id":"view1","updatedAt":1432025470}
 
 AuthToken: |+
   data: {"header":"Open Pull Requests","pulls":[{"title":"Added 5 capitals","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@asimha"},{"title":"Removed name","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@shashikirans"},{"title":"Country list is added","repo":"country_list","updated_at":"Dec 10 2014, 11:12 AM","creator":"@slakshmana"},{"title":"Added jenkins widget","repo":"dashingproject","updated_at":"May 15 2015,  6:05 AM","creator":"@Kavyahs"}],"id":"AuthToken","updatedAt":1431672095}
 
 openPrs: |+
-  data: {"header":"Open Pull Requests","pulls":[{"title":"[development code_refactor]- If any association is missing in any loan application, response is …","repo":"loan_list","updated_at":"May 18 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development password_reset_bug] Password reset bug","repo":"loan_list","updated_at":"May 18 2015,  7:05 AM","creator":"@raghugjoshi"}],"id":"openPrs","updatedAt":1432021660}
+  data: {"header":"Open Pull Requests","pulls":[{"title":"[development code_refactor]- If any association is missing in any loan application, response is …","repo":"loan_list","updated_at":"May 18 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development password_reset_bug] Password reset bug","repo":"loan_list","updated_at":"May 18 2015,  7:05 AM","creator":"@raghugjoshi"}],"id":"openPrs","updatedAt":1432022153}
 
 closedPrs: |+
-  data: {"header":"Close Pull Requests","pulls":[{"title":"[development code_refactor]- If any association is missing in any loan application, response is …","repo":"loan_list","updated_at":"May 18 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development password_reset_bug] Password reset bug","repo":"loan_list","updated_at":"May 18 2015,  7:05 AM","creator":"@raghugjoshi"},{"title":"Amount Filter Api, removed unwanted codes and changes in admin role method","repo":"loan_list","updated_at":"May 18 2015,  9:05 AM","creator":"@shashikirans"}],"id":"closedPrs","updatedAt":1432021510}
+  data: {"header":"Close Pull Requests","pulls":[{"title":"[development code_refactor]- If any association is missing in any loan application, response is …","repo":"loan_list","updated_at":"May 18 2015, 10:05 AM","creator":"@raghugjoshi"},{"title":"[development password_reset_bug] Password reset bug","repo":"loan_list","updated_at":"May 18 2015,  7:05 AM","creator":"@raghugjoshi"},{"title":"Amount Filter Api, removed unwanted codes and changes in admin role method","repo":"loan_list","updated_at":"May 18 2015,  9:05 AM","creator":"@shashikirans"}],"id":"closedPrs","updatedAt":1432021673}
 
 server_status: |+
-  data: {"items":[{"label":"Loan UAT","value":1,"arrow":"icon-ok-sign","color":"green"}],"id":"server_status","updatedAt":1432021508}
+  data: {"items":[{"label":"Loan UAT","value":1,"arrow":"icon-ok-sign","color":"green"}],"id":"server_status","updatedAt":1432025457}
 
 newrelic_Apdex: |+
-  data: {"current":0.86,"points":[{"x":93,"y":0.77},{"x":94,"y":0.8},{"x":95,"y":0.81},{"x":96,"y":0.73},{"x":97,"y":0.68},{"x":98,"y":0.86},{"x":99,"y":0.89},{"x":100,"y":0.91},{"x":101,"y":0.89},{"x":102,"y":0.79},{"x":103,"y":0.81},{"x":104,"y":0.81},{"x":105,"y":0.83},{"x":106,"y":0.88},{"x":107,"y":0.88},{"x":108,"y":0.88},{"x":109,"y":0.88},{"x":110,"y":0.9},{"x":111,"y":0.93},{"x":112,"y":0.93},{"x":113,"y":0.91},{"x":114,"y":0.86},{"x":115,"y":0.86},{"x":116,"y":0.84},{"x":117,"y":0.83},{"x":118,"y":0.83},{"x":119,"y":0.86},{"x":120,"y":0.88},{"x":121,"y":0.88},{"x":122,"y":0.86},{"x":123,"y":0.88},{"x":124,"y":0.91},{"x":125,"y":0.89},{"x":126,"y":0.89},{"x":127,"y":0.89},{"x":128,"y":0.8},{"x":129,"y":0.86},{"x":130,"y":0.89},{"x":131,"y":0.92},{"x":132,"y":0.91},{"x":133,"y":0.91},{"x":134,"y":0.93},{"x":135,"y":0.93},{"x":136,"y":0.89},{"x":137,"y":0.9},{"x":138,"y":0.9},{"x":139,"y":0.9},{"x":140,"y":0.9},{"x":141,"y":0.9},{"x":142,"y":0.9},{"x":143,"y":0.9},{"x":144,"y":0.86},{"x":145,"y":0.81},{"x":146,"y":0.88},{"x":147,"y":0.89},{"x":148,"y":0.9},{"x":149,"y":0.9},{"x":150,"y":0.9},{"x":151,"y":0.8},{"x":152,"y":0.86}],"id":"newrelic_Apdex","updatedAt":1432021627}
+  data: {"current":0.92,"points":[{"x":160,"y":0.44},{"x":161,"y":0.44},{"x":162,"y":0.47},{"x":163,"y":0.42},{"x":164,"y":0.42},{"x":165,"y":0.44},{"x":166,"y":0.5},{"x":167,"y":0.83},{"x":168,"y":0.86},{"x":169,"y":0.82},{"x":170,"y":0.82},{"x":171,"y":0.86},{"x":172,"y":0.89},{"x":173,"y":0.89},{"x":174,"y":0.82},{"x":175,"y":0.85},{"x":176,"y":0.85},{"x":177,"y":0.93},{"x":178,"y":0.89},{"x":179,"y":0.89},{"x":180,"y":0.83},{"x":181,"y":0.81},{"x":182,"y":0.79},{"x":183,"y":0.83},{"x":184,"y":0.86},{"x":185,"y":0.9},{"x":186,"y":0.85},{"x":187,"y":0.85},{"x":188,"y":0.83},{"x":189,"y":0.9},{"x":190,"y":0.81},{"x":191,"y":0.8},{"x":192,"y":0.75},{"x":193,"y":0.77},{"x":194,"y":0.79},{"x":195,"y":0.85},{"x":196,"y":0.85},{"x":197,"y":0.85},{"x":198,"y":0.88},{"x":199,"y":0.91},{"x":200,"y":0.91},{"x":201,"y":0.93},{"x":202,"y":0.91},{"x":203,"y":0.91},{"x":204,"y":0.75},{"x":205,"y":0.78},{"x":206,"y":0.82},{"x":207,"y":0.82},{"x":208,"y":0.86},{"x":209,"y":0.83},{"x":210,"y":0.77},{"x":211,"y":0.76},{"x":212,"y":0.73},{"x":213,"y":0.83},{"x":214,"y":0.83},{"x":215,"y":0.87},{"x":216,"y":0.85},{"x":217,"y":0.85},{"x":218,"y":0.83},{"x":219,"y":0.92}],"id":"newrelic_Apdex","updatedAt":1432025516}
 
 newrelic_Throughput: |+
-  data: {"current":2.67,"points":[{"x":93,"y":3.33},{"x":94,"y":3.0},{"x":95,"y":2.67},{"x":96,"y":5.0},{"x":97,"y":3.33},{"x":98,"y":2.33},{"x":99,"y":3.0},{"x":100,"y":3.67},{"x":101,"y":3.33},{"x":102,"y":4.0},{"x":103,"y":6.0},{"x":104,"y":6.0},{"x":105,"y":8.0},{"x":106,"y":8.0},{"x":107,"y":8.0},{"x":108,"y":6.67},{"x":109,"y":5.67},{"x":110,"y":8.0},{"x":111,"y":9.33},{"x":112,"y":9.33},{"x":113,"y":5.67},{"x":114,"y":4.67},{"x":115,"y":4.67},{"x":116,"y":5.33},{"x":117,"y":5.67},{"x":118,"y":5.0},{"x":119,"y":3.33},{"x":120,"y":3.0},{"x":121,"y":2.33},{"x":122,"y":3.67},{"x":123,"y":4.0},{"x":124,"y":4.0},{"x":125,"y":3.0},{"x":126,"y":3.0},{"x":127,"y":3.0},{"x":128,"y":2.1},{"x":129,"y":2.0},{"x":130,"y":3.0},{"x":131,"y":5.0},{"x":132,"y":5.0},{"x":133,"y":5.0},{"x":134,"y":5.92},{"x":135,"y":4.67},{"x":136,"y":4.33},{"x":137,"y":5.45},{"x":138,"y":5.45},{"x":139,"y":5.33},{"x":140,"y":5.33},{"x":141,"y":5.33},{"x":142,"y":3.67},{"x":143,"y":3.67},{"x":144,"y":2.67},{"x":145,"y":2.67},{"x":146,"y":2.67},{"x":147,"y":3.0},{"x":148,"y":3.33},{"x":149,"y":3.0},{"x":150,"y":3.0},{"x":151,"y":2.05},{"x":152,"y":2.67}],"id":"newrelic_Throughput","updatedAt":1432021627}
+  data: {"current":2.33,"points":[{"x":160,"y":10.3},{"x":161,"y":11.2},{"x":162,"y":9.67},{"x":163,"y":11.0},{"x":164,"y":11.0},{"x":165,"y":12.7},{"x":166,"y":6.33},{"x":167,"y":3.0},{"x":168,"y":2.67},{"x":169,"y":3.33},{"x":170,"y":3.33},{"x":171,"y":3.67},{"x":172,"y":3.33},{"x":173,"y":3.33},{"x":174,"y":3.33},{"x":175,"y":3.33},{"x":176,"y":3.33},{"x":177,"y":3.0},{"x":178,"y":3.0},{"x":179,"y":3.0},{"x":180,"y":4.33},{"x":181,"y":4.33},{"x":182,"y":3.67},{"x":183,"y":3.33},{"x":184,"y":3.67},{"x":185,"y":3.67},{"x":186,"y":3.33},{"x":187,"y":3.33},{"x":188,"y":2.07},{"x":189,"y":1.33},{"x":190,"y":2.67},{"x":191,"y":4.26},{"x":192,"y":4.33},{"x":193,"y":4.0},{"x":194,"y":3.67},{"x":195,"y":3.33},{"x":196,"y":3.0},{"x":197,"y":3.0},{"x":198,"y":2.67},{"x":199,"y":3.67},{"x":200,"y":3.67},{"x":201,"y":5.0},{"x":202,"y":3.67},{"x":203,"y":3.67},{"x":204,"y":2.67},{"x":205,"y":3.0},{"x":206,"y":3.0},{"x":207,"y":3.0},{"x":208,"y":2.9},{"x":209,"y":3.33},{"x":210,"y":5.0},{"x":211,"y":6.62},{"x":212,"y":4.33},{"x":213,"y":3.0},{"x":214,"y":3.0},{"x":215,"y":5.0},{"x":216,"y":4.67},{"x":217,"y":4.67},{"x":218,"y":3.0},{"x":219,"y":2.33}],"id":"newrelic_Throughput","updatedAt":1432025516}
 
 newrelic_Response_Time: |+
-  data: {"current":331.0,"points":[{"x":93,"y":569.0},{"x":94,"y":506.0},{"x":95,"y":351.0},{"x":96,"y":692.0},{"x":97,"y":670.0},{"x":98,"y":518.0},{"x":99,"y":371.0},{"x":100,"y":369.0},{"x":101,"y":367.0},{"x":102,"y":467.0},{"x":103,"y":485.0},{"x":104,"y":485.0},{"x":105,"y":472.0},{"x":106,"y":414.0},{"x":107,"y":414.0},{"x":108,"y":414.0},{"x":109,"y":390.0},{"x":110,"y":371.0},{"x":111,"y":338.0},{"x":112,"y":354.0},{"x":113,"y":380.0},{"x":114,"y":462.0},{"x":115,"y":462.0},{"x":116,"y":443.0},{"x":117,"y":451.0},{"x":118,"y":380.0},{"x":119,"y":344.0},{"x":120,"y":319.0},{"x":121,"y":384.0},{"x":122,"y":344.0},{"x":123,"y":338.0},{"x":124,"y":311.0},{"x":125,"y":365.0},{"x":126,"y":365.0},{"x":127,"y":365.0},{"x":128,"y":495.0},{"x":129,"y":421.0},{"x":130,"y":330.0},{"x":131,"y":299.0},{"x":132,"y":348.0},{"x":133,"y":348.0},{"x":134,"y":305.0},{"x":135,"y":316.0},{"x":136,"y":317.0},{"x":137,"y":323.0},{"x":138,"y":323.0},{"x":139,"y":300.0},{"x":140,"y":300.0},{"x":141,"y":300.0},{"x":142,"y":335.0},{"x":143,"y":335.0},{"x":144,"y":321.0},{"x":145,"y":330.0},{"x":146,"y":358.0},{"x":147,"y":320.0},{"x":148,"y":283.0},{"x":149,"y":325.0},{"x":150,"y":325.0},{"x":151,"y":432.0},{"x":152,"y":331.0}],"id":"newrelic_Response_Time","updatedAt":1432021627}
+  data: {"current":328.0,"points":[{"x":160,"y":1560.0},{"x":161,"y":1540.0},{"x":162,"y":1450.0},{"x":163,"y":1450.0},{"x":164,"y":1450.0},{"x":165,"y":1460.0},{"x":166,"y":1220.0},{"x":167,"y":431.0},{"x":168,"y":352.0},{"x":169,"y":356.0},{"x":170,"y":356.0},{"x":171,"y":355.0},{"x":172,"y":338.0},{"x":173,"y":324.0},{"x":174,"y":345.0},{"x":175,"y":342.0},{"x":176,"y":342.0},{"x":177,"y":291.0},{"x":178,"y":315.0},{"x":179,"y":315.0},{"x":180,"y":403.0},{"x":181,"y":432.0},{"x":182,"y":424.0},{"x":183,"y":362.0},{"x":184,"y":337.0},{"x":185,"y":360.0},{"x":186,"y":373.0},{"x":187,"y":373.0},{"x":188,"y":352.0},{"x":189,"y":387.0},{"x":190,"y":341.0},{"x":191,"y":390.0},{"x":192,"y":422.0},{"x":193,"y":430.0},{"x":194,"y":390.0},{"x":195,"y":333.0},{"x":196,"y":327.0},{"x":197,"y":363.0},{"x":198,"y":344.0},{"x":199,"y":311.0},{"x":200,"y":311.0},{"x":201,"y":310.0},{"x":202,"y":331.0},{"x":203,"y":331.0},{"x":204,"y":507.0},{"x":205,"y":458.0},{"x":206,"y":410.0},{"x":207,"y":410.0},{"x":208,"y":370.0},{"x":209,"y":451.0},{"x":210,"y":526.0},{"x":211,"y":547.0},{"x":212,"y":524.0},{"x":213,"y":430.0},{"x":214,"y":430.0},{"x":215,"y":334.0},{"x":216,"y":330.0},{"x":217,"y":330.0},{"x":218,"y":352.0},{"x":219,"y":328.0}],"id":"newrelic_Response_Time","updatedAt":1432025516}
 
 jenkinsBuildStatus: |+
-  data: {"failedJobs":[],"succeededJobs":[],"failed":false,"id":"jenkinsBuildStatus","updatedAt":1432018585}
+  data: {"failedJobs":[],"succeededJobs":[],"failed":false,"id":"jenkinsBuildStatus","updatedAt":1432024847}
 
