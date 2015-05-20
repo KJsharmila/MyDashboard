@@ -10,7 +10,7 @@ $moreinfo-color:    rgba(255, 255, 255, 1.0);
 // Widget-text styles
 // ----------------------------------------------------------------------------
 .widget.widget-newrelic {
-vertical-align: bottom;
+/*vertical-align: bottom;*/
 }
 .widget-newrelic {
 
@@ -30,7 +30,7 @@ left: 215px;
 .newrelic-graph {
 position: absolute;
 top: 80px;
-left: 4px;
+left: 0px;
 }
 
 /*.title {
