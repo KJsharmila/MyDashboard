@@ -143,7 +143,6 @@ cursor: pointer;
 }
 
 .widget {
-  padding: 25px 12px;
 text-align: center;
 width: 100%;
 display: table-cell;
@@ -186,7 +185,7 @@ vertical-align: middle;
 }
 
 .updated-at {
-  font-size: 15px;
+  font-size: 17px;
   position: absolute;
   bottom: 12px;
   left: 0;
@@ -250,8 +249,9 @@ h1.title
 {
   color: #fff;
 font-size: 25px;
+width: 300px;
 position: absolute;
-top:20px;
+top:15px;
 text-align: center;
 
 }
