@@ -44,7 +44,7 @@ html {
 body {
   margin: 0;
   background-color: $background-color;
-  font-size: 20px;
+  font-size: 18px;
   color: $text-color;
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, p {
 h1 {
   margin-bottom: 1px;
   text-align: center;
-  font-size: 20px;
+  font-size: 38px;
   font-weight: 400;
 }
 h2 {
@@ -240,6 +240,10 @@ vertical-align: middle;
     width:100%;
     background: #000;
     display: none;
+}
+.new
+{
+  margin-bottom: 50px;
 }
 
 #container {
