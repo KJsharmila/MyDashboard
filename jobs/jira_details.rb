@@ -60,5 +60,5 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   end
   
   total = todo_count + open_count + reopened_count + in_progress_count + done_count + dev_done_count + qa_count + uat_count + resolved_count
-  send_event("jira", { title: "Jira Story Details", todo: todo_count, open: open_count, reopened: reopened_count, inprogress: in_progress_count, qa: qa_count, uat: uat_count, dev_done: dev_done_count, resolved:resolved_count, done: done_count, total: total })
+  send_event("jira", { title: "JIRA STORY DETAILS", todo: todo_count, open: open_count, reopened: reopened_count, inprogress: in_progress_count, qa: qa_count, uat: uat_count, dev_done: dev_done_count, resolved:resolved_count, done: done_count, total: total })
 end
