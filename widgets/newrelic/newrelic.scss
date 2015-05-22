@@ -23,13 +23,15 @@ text-transform: none;
 float: left;
 position: absolute;
 top: 53px;
-left: 215px;
+left: 215px;;
+
 }
 
 
 .newrelic-graph {
 position: absolute;
-top: 80px;
+/*top: 80px;*/
+bottom:3px;
 left: 0px;
 }
 
