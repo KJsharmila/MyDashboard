@@ -2,7 +2,7 @@ require 'net/http'
 require 'json'
 
 SCHEDULER.every  '1h', :first_in => 0 do |job|
-  repo_id = "5508fdbe695680039a004191" # Loan List
+  repo_id = "5508fdbe695680039a004191" 
   api_token = "255887c05d5a64ea167e4d3455f63d8f71574536"
 
   uri = URI.parse("https://codeclimate.com/api/repos/#{repo_id}")

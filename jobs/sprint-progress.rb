@@ -13,7 +13,7 @@ require 'jira'
   done = "DONE"
   closed = "CLOSED"
 
-  sprint_name = "Sprint 5"
+  sprint_name = "Sprint 6"
 
   options = {
     :username => username,
