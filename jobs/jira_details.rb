@@ -31,7 +31,7 @@ host ="https://qwinix.atlassian.net"
       :auth_type => :basic
     }
 
-    SCHEDULER.every '5s', :first_in => 0 do |job|
+    SCHEDULER.every '5m', :first_in => 0 do |job|
 
       client = JIRA::Client.new(options)
       todo_count = 0;
