@@ -1,4 +1,4 @@
- <script type='text/javascript'>
+<script type='text/javascript'>
 $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
    Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
@@ -8,54 +8,56 @@ $(function() {
   Dashing.numColumns = 4
 });
 </script>
-  <div class="hh">
-    <h1>Loan Application Management </h1>
-  </div>
 <style> 
   .hh{ background: black;
-    border-bottom: 6px;
-    border-left:  6px ;
-    border-right:  6px;
-    border-top: 5px;
-    font: italic normal 200% 'Times New Roman', Times, serif;
+    border-bottom: 4px;
+    border-left:  4px ;
+    border-right:  4px;
+    border-top: 4px;
+    font: italic normal 280% 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
     margin: 0;
-    padding: 4px 4px 4px 15px;
+    padding: 5px 5px 5px 20px;
   }
 </style>
 <div id="container">
 <div class="gridster" style="width: 1240px;">
-  <ul style="height: 740px; position: relative;">
-   <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" class="gs_w">
+  <div class="hh">
+    <h1>Loan Application Management </h1>
+  </div>
+
+  <ul style="height: 342px;">
+   <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" style="height:320px;">
       <div data-view="SprintProgress"data-title="SprintProgress" data-id="sprint_progress"></div>
     </li>
-    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1" class="gs_w">
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1" style="height:320px;">
       <div id="newrelic_Response_Time" data-id="newrelic_Response_Time" data-view="Newrelic" data-title="New Relic (Response Time)"></div>
     </li>
      
-    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1" class="gs_w">
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1" style="height:320px;">
       <div data-view="PullRequests" data-id="openPrs"></div>
     </li>
-<li data-row="1" data-col="3" data-sizex="1" data-sizey="1" class="gs_w">
-      <div data-id="jira" data-view="JiraDetails" data-title="JIRA DETAILS"></div>
+<li data-row="1" data-col="4" data-sizex="1" data-sizey="1" style="height:320px;">
+      <div data-id="jira" data-view="JiraDetails"title="JIRA STORY DETAILS" ></div>
     </li>
  
-     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" class="gs_w">
+     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" style="top:335px;">
       <div data-id="code-climate" data-view="Codeclimate" data-title="Code Climate"></div>
     </li>
 
-     <li data-row="2" data-col="2" data-sizex="1" data-sizey="1" class="gs_w">
+     <li data-row="2" data-col="2" data-sizex="1" data-sizey="1" style="top:335px;">
       <div  data-id="newrelic_Error_Rate" data-view="Newrelic" data-title="New Relic (Error Rate)"></div>
     </li>
   
-   
-    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1" class="gs_w">
+ 
+    
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1" style="top:335px;">
       <div data-id="jenkinsBuildStatus" data-view="JenkinsBuildStatus" data-title="Jenkins"></div>
     </li>
     
-     <li data-row="2" data-col="4" data-sizex="1" data-sizey="1" class="gs_w">
+     <li data-row="2" data-col="4" data-sizex="1" data-sizey="1" style="top:335px;">
       <div data-id="server_status" data-view="ServerStatus" data-title="Server Status" style="background-color: #4493EB"></div>
     </li>
-  
+   
     </ul>
   </div>
