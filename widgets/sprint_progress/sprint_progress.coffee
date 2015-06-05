@@ -12,7 +12,7 @@ class Dashing.SprintProgress extends Dashing.Widget
       if value >= 30 && value <= 50 
         $(@node).css("background-color", "#ff9122")
       if value > 50 
-        $(@node).css("background-color", "green")
+        $(@node).css("background-color", "#32CD32")
 
   ready: ->
     meter = $(@node).find(".meter")
