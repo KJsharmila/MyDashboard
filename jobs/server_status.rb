@@ -13,17 +13,18 @@ require 'time'
 # return false
 
 servers = [
-	{name: 'Loan UAT', url: 'https://uat.loanlist.qwinixtech.com', method: 'https'}
+	{name: 'Loan UAT', url: 'https://uat.loanlist.qwinixtech.com', method: 'https'},
+	{name: 'Loan IT', url: 'http://it.loanlist.qwinixtech.com', method: 'http'}
 ]
 
 
-SCHEDULER.every '3m', :first_in => 0 do |job|
+SCHEDULER.every '1m', :first_in => 0 do |job|
 
 	statuses = Array.new
 	
 	# check status for each server
 	servers.each do |server|
-		if server[:method] == 'https'
+		if server[:method] == 'https' || 'http' 
 			uri = URI.parse(server[:url])
 			http = Net::HTTP.new(uri.host, uri.port)
 			if uri.scheme == "https"

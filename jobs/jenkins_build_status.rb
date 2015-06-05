@@ -9,7 +9,7 @@ JENKINS_AUTH = {
   'password' => 'Qwinix2015!'
 }
 
-SCHEDULER.every '10m' do
+SCHEDULER.every '1m' do
 
   json = getFromJenkins(JENKINS_URI + 'api/json?pretty=true')
 
