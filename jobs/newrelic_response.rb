@@ -4,7 +4,7 @@ newrelic = Newrelic.new({metric: metric})
 points = newrelic.points
 last_x = points.last[:x]
 
-SCHEDULER.every '1m', :first_in => 0 do |job|
+SCHEDULER.every '1s', :first_in => 0 do |job|
 
   current = newrelic.get_value
 

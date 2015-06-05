@@ -18,7 +18,7 @@ servers = [
 ]
 
 
-SCHEDULER.every '1m', :first_in => 0 do |job|
+SCHEDULER.every '1s', :first_in => 0 do |job|
 
 	statuses = Array.new
 	
