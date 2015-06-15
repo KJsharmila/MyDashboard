@@ -5,7 +5,7 @@ require 'jira'
   require 'time'
   require 'open-uri'
   require 'cgi'
-  host = "https://qwinix.atlassian.net"
+  host = "https://qwinix.atlassian.net/secure/RapidBoard.jspa?rapidView=77"
   username = "akumar"
   password = "Qwinix123"
   project = "LOAN"
@@ -13,7 +13,6 @@ require 'jira'
   done = "DONE"
   closed = "CLOSED"
 
-  sprint_name = "Sprint 6"
 
   options = {
     :username => username,
@@ -23,7 +22,7 @@ require 'jira'
     :auth_type => :basic
   }
 
- SCHEDULER.every '7m', :first_in => 0 do |job|
+ SCHEDULER.every '1m', :first_in => 0 do |job|
 
     client = JIRA::Client.new(options)
     total_points = 0;
@@ -43,7 +42,9 @@ require 'jira'
 
     if total_points == 0
       percentage = 0
-      moreinfo = "No sprint currently in progress"
+
+      moreinfo ="No sprint currently in progress"
+      
     else
       percentage = (((closed_points/1.0)/(total_points/1.0))*100).to_i
       moreinfo = "#{closed_points.to_i} / #{total_points.to_i}"
