@@ -23,7 +23,7 @@ require 'jira'
     :auth_type => :basic
   }
 
- SCHEDULER.every '1h', :first_in => 0 do |job|
+ SCHEDULER.every '1s', :first_in => 0 do |job|
 
     client = JIRA::Client.new(options)
     total_points = 0;
