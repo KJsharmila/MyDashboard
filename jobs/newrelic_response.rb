@@ -1,3 +1,6 @@
+
+require 'time'
+
 metric = 'Response Time'
 
 newrelic = Newrelic.new({metric: metric})
