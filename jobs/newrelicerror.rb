@@ -1,5 +1,4 @@
 
-
 require 'time'
 metric = 'Error Rate'
 

@@ -9,8 +9,8 @@ require 'time'
 require 'open-uri'
 require 'cgi'
 host ="https://qwinix.atlassian.net"
-username = "akumar"
-password = "Qwinix123"
+username = "ll"
+password = "ll"
 project = "LOAN"
 to_do = "TO DO"
 open = "OPEN"
@@ -23,7 +23,6 @@ resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
 
-sprint_name ="Sprint = 0"
 
 options = {
   :username => username,
@@ -33,10 +32,9 @@ options = {
   :auth_type => :basic
 }
 
-SCHEDULER.every '10s', :first_in => 0 do |job|
+SCHEDULER.every '1h', :first_in => 0 do |job|
 
   client = JIRA::Client.new(options)
-
 
   
   todo_count = 0;

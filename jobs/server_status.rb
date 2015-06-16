@@ -3,8 +3,6 @@ require 'net/https'
 require 'uri'
 require 'time'
 
-
-
 servers = [
 	{name: 'Loan UAT', url: 'https://uat.loanlist.qwinixtech.com', method: 'https'},
 	{name: 'Loan IT', url: 'http://it.loanlist.qwinixtech.com', method: 'http'}
