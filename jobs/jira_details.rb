@@ -23,7 +23,7 @@ resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
 
-sprint_name ="hhhhh"
+sprint_name ="Sprint = 0"
 
 options = {
   :username => username,
