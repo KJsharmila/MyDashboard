@@ -7,8 +7,8 @@ require 'time'
 require 'open-uri'
 require 'cgi'
 host ="https://qwinix.atlassian.net"
-    username = "Ravi Shankar"
-    password = "Qwinix123"
+    username = "bmsantosh"
+    password = "Qwinix@123"
     project = "LOAN"
      to_do = "TO DO"
     open = "OPEN"
@@ -21,7 +21,7 @@ host ="https://qwinix.atlassian.net"
     done = "DONE"
     closed = "CLOSED"
 
-    sprint_name ="Sprint 6"
+    sprint_name ="Sprint 7"
 
     options = {
       :username => username,
@@ -31,7 +31,7 @@ host ="https://qwinix.atlassian.net"
       :auth_type => :basic
     }
 
-    SCHEDULER.every '1h', :first_in => 0 do |job|
+    SCHEDULER.every '10s', :first_in => 0 do |job|
 
       client = JIRA::Client.new(options)
       todo_count = 0;

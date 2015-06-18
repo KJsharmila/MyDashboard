@@ -6,8 +6,8 @@ require 'time'
 JIRA_URI = URI.parse("https://qwinix.atlassian.net")
 
 JIRA_AUTH = {
-	'name' => 'akumar',
-	'password' => 'Qwinix123'
+	'name' => 'bmsantosh',
+	'password' => 'Qwinix@123'
 }
 
 # the key of this mapping must be a unique identifier for your board, the according value must be the view id that is used in Jira
