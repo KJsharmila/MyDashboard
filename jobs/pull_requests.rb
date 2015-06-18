@@ -1,7 +1,7 @@
 require 'octokit'
 require 'time'
 SCHEDULER.every '10s', :first_in => 0 do |job|
-  client = Octokit::Client.new(:access_token => "09fb70f0659bb9360702870f0b0384ff54a622c8")
+  client = Octokit::Client.new(:access_token => "c7f5649dffba2fe5b2483f473e7381bf3263b6ba")
   my_organization = "Qwinix"
   repo_name = []
 

@@ -1,5 +1,3 @@
-
-
 require 'jira'
 require 'pry'
 require 'time'
