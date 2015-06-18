@@ -1,4 +1,4 @@
-require 'jira'
+ require 'jira'
   require 'time'
   require 'net/http'
   require 'json'
@@ -6,13 +6,13 @@ require 'jira'
   require 'open-uri'
   require 'cgi'
   host = "https://qwinix.atlassian.net/secure/RapidBoard.jspa?rapidView=77"
-  username = "akumar"
-  password = "Qwinix123"
+  username = "bmsantosh"
+  password = "Qwinix@123"
   project = "LOAN"
   resolved = "RESOLVED"
   done = "DONE"
   closed = "CLOSED"
-
+  sprint_name = "Sprint 7"
 
   options = {
     :username => username,
@@ -22,7 +22,7 @@ require 'jira'
     :auth_type => :basic
   }
 
- SCHEDULER.every '1h', :first_in => 0 do |job|
+ SCHEDULER.every '15m', :first_in => 0 do |job|
 
     client = JIRA::Client.new(options)
     total_points = 0;
