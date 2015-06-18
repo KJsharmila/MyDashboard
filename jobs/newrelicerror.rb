@@ -1,3 +1,5 @@
+
+require 'time'
 metric = 'Error Rate'
 
 newrelic = Newrelic.new({metric: metric})

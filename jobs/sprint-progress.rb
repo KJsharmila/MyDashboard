@@ -5,14 +5,13 @@ require 'jira'
   require 'time'
   require 'open-uri'
   require 'cgi'
-  host = "https://qwinix.atlassian.net"
+  host = "https://qwinix.atlassian.net/secure/RapidBoard.jspa?rapidView=77"
   username = "bmsantosh"
   password = "Qwinix@123"
   project = "LOAN"
   resolved = "RESOLVED"
   done = "DONE"
   closed = "CLOSED"
-
   sprint_name = "Sprint 7"
 
   options = {
@@ -43,7 +42,9 @@ require 'jira'
 
     if total_points == 0
       percentage = 0
-      moreinfo = "No sprint currently in progress"
+
+      moreinfo ="No sprint currently in progress"
+      
     else
       percentage = (((closed_points/1.0)/(total_points/1.0))*100).to_i
       moreinfo = "#{closed_points.to_i} / #{total_points.to_i}"

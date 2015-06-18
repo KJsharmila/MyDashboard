@@ -2,15 +2,6 @@
 require 'net/https'
 require 'uri'
 require 'time'
-# Check whether a server is responding
-# you can set a server to check via http request or ping
-#
-# server options:
-# name: how it will show up on the dashboard
-# url: either a website url or an IP address (do not include https:// when usnig ping method)
-# method: either 'http' or 'ping'
-# if the server you're checking redirects (from http to https for example) the check will
-# return false
 
 servers = [
 	{name: 'Loan UAT', url: 'https://uat.loanlist.qwinixtech.com', method: 'https'},
@@ -18,7 +9,7 @@ servers = [
 ]
 
 
-SCHEDULER.every '1s', :first_in => 0 do |job|
+SCHEDULER.every '1h', :first_in => 0 do |job|
 
 	statuses = Array.new
 	
