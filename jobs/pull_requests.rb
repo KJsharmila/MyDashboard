@@ -15,7 +15,7 @@ SCHEDULER.every '10s', :first_in => 0 do |job|
       pulls.push({
         title: pull.title,
         repo: repo,
-        updated_at: pull.updated_at.strftime("%b %-d %Y, %l:%m %p"),
+        updated_at: pull.updated_at.strftime("%b %-d %Y"),
         creator: "@" + pull.user.login,
         })
     end
