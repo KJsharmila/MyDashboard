@@ -40,15 +40,11 @@
       closed_points+=1
     end
 
-    if total_points == 0
-      percentage = 0
-
-      moreinfo ="No sprint currently in progress"
+    
       
-    else
+    
       percentage = (((closed_points/1.0)/(total_points/1.0))*100).to_i
       moreinfo = "#{closed_points.to_i} / #{total_points.to_i}"
-    end
 
     send_event("sprint_progress", { title: "Sprint Progress", min: 0, value: percentage, max: 100, moreinfo: moreinfo })
   end
