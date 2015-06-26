@@ -1,11 +1,12 @@
 <h1 class="title" data-bind="title"></h1>
 
 <ul>
-  <li data-foreach-item="items">
-   <span class="label" data-bind="item.label"></span>
+	<li data-foreach-item="items">
+		<span class="label" data-bind="item.label"></span>
 
-   <span class="value"><div data-bind-class="item.color"><i data-bind-class="item.arrow"></i></div></span>
-  </li>
+		<span class="value"><div data-bind-class="item.color"><i data-bind-class="item.arrow"></i></div></span>
+	</li>
+		<h1 class="value" data-bind="daysRemaining" style="text-aline: center"></h1>
 </ul>
 
 <p class="more-info" data-bind="moreinfo"></p>
