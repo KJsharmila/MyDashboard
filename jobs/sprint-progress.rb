@@ -1,7 +1,7 @@
- require 'jira'
-  require 'time'
-  require 'net/http'
-  require 'json'
+ # require 'jira'
+ #  require 'time'
+ #  require 'net/http'
+ #  require 'json'
   require 'time'
   require 'open-uri'
   require 'cgi'
@@ -92,7 +92,7 @@ end
 
 
   view_mapping.each do |view, view_id|
-  SCHEDULER.every '1s', :first_in => 0 do |id|
+  SCHEDULER.every '10s', :first_in => 0 do |id|
 
     client = JIRA::Client.new(options)
     total_points = 0;
