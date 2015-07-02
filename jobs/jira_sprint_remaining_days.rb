@@ -9,6 +9,10 @@ require 'time'
 # 	'name' => 'akumar',
 # 	'password' => 'Qwinix123'
 # }
+JIRA_AUTH = {
+	'name' => 'bmsantosh',
+	'password' => 'Qwinix@123'
+}
 
 # # the key of this mapping must be a unique identifier for your board, the according value must be the view id that is used in Jira
 # view_mapping = {

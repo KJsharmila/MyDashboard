@@ -22,7 +22,7 @@ resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
 sprint_name ="Sprint 7"
-
+    
 options = {
   :username => username,
   :password => password,
@@ -31,10 +31,11 @@ options = {
   :auth_type => :basic
 }
 
-SCHEDULER.every '15m', :first_in => 0 do |job|
+
 
   client = JIRA::Client.new(options)
 
+    SCHEDULER.every '10s', :first_in => 0 do |job|
   
   todo_count = 0;
   client.Issue.jql("PROJECT = \"#{project}\" AND STATUS = \"#{to_do}\" AND SPRINT = \"#{sprint_name}\"").each do |issue|
@@ -79,4 +80,3 @@ SCHEDULER.every '15m', :first_in => 0 do |job|
   total_points = todo_count + open_count + reopened_count + in_progress_count + done_count + dev_done_count + qa_count + uat_count + resolved_count + closed_count
   send_event("jira", { title: "Jira Story Details", todo: todo_count, open: open_count, reopened: reopened_count, inprogress: in_progress_count, qa: qa_count, uat: uat_count, dev_done: dev_done_count, resolved:resolved_count, done: done_count, closed: closed_count, total: total_points })
 end
-
