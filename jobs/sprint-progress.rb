@@ -1,7 +1,7 @@
  # require 'jira'
  #  require 'time'
  #  require 'net/http'
- #  require 'json'
+  require 'json'
   require 'time'
   require 'open-uri'
   require 'cgi'
@@ -80,7 +80,7 @@ end
   resolved = "RESOLVED"
   done = "DONE"
   closed = "CLOSED"
-  sprint_name = "Sprint 8"
+  sprint_name = "Sprint 0"
 
   options = {
     :username => username,
