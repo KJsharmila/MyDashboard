@@ -21,7 +21,7 @@ uat = "UAT"
 resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
-sprint_name ="Sprint 0"
+sprint_name ="Sprint 9"
     
 options = {
   :username => username,
