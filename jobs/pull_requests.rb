@@ -20,7 +20,7 @@ SCHEDULER.every '10s', :first_in => 0 do |job|
         creator: "@" + pull.user.login,
         })
     end
-    pulls
+    pulls[0..3]
   }
   send_event('openPrs', { header: "Open Pull Requests", pulls: open_pull_requests })
 end
