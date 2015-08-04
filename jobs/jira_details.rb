@@ -21,7 +21,7 @@ host ="https://qwinix.atlassian.net"
     done = "DONE"
     closed = "CLOSED"
 
-    sprint_name ="Sprint 7"
+    # sprint_name ="Sprint 0"
 
 
 options = {
@@ -35,7 +35,7 @@ options = {
 
   client = JIRA::Client.new(options)
 
-    SCHEDULER.every '10s', :first_in => 0 do |job|
+    SCHEDULER.every '1s', :first_in => 0 do |job|
   
   todo_count = 0;
   client.Issue.jql("PROJECT = \"#{project}\" AND STATUS = \"#{to_do}\" AND SPRINT = \"#{sprint_name}\"").each do |issue|
