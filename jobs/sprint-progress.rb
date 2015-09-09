@@ -12,7 +12,7 @@ project = "LOAN"
 resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
-sprint_name = "Sprint 11"
+sprint_name = "S12"
 
 options = {
  :username => username,
@@ -22,7 +22,7 @@ options = {
  :auth_type => :basic
 }
 
-SCHEDULER.every '5m', :first_in => 0 do |job|
+SCHEDULER.every '5s', :first_in => 0 do |job|
 
   client = JIRA::Client.new(options)
   total_points = 0;
