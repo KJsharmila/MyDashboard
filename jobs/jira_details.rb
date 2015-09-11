@@ -35,7 +35,7 @@ options = {
 
   client = JIRA::Client.new(options)
 
-    SCHEDULER.every '5s', :first_in => 0 do |job|
+    SCHEDULER.every '10m', :first_in => 0 do |job|
   
   todo_count = 0;
   client.Issue.jql("PROJECT = \"#{project}\" AND STATUS = \"#{to_do}\" AND SPRINT = \"#{sprint_name}\"").each do |issue|
