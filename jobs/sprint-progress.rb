@@ -12,7 +12,7 @@ project = "LOAN"
 resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
-sprint_name = "S13"
+sprint_name = "Start Full Loan App"
 
 options = {
  :username => username,
