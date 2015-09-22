@@ -8,8 +8,8 @@ require 'time'
 require 'open-uri'
 require 'cgi'
 host ="https://qwinix.atlassian.net"
-username = "bmsantosh"
-password = "Qwinix@123"
+username = "akumar"
+password = "Qwinix123"
 project = "LOAN"
 to_do = "TO DO"
 open = "OPEN"
@@ -21,7 +21,7 @@ uat = "UAT"
 resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
-sprint_name ="Start Full Loan App"
+sprint_name ="S13-Start Full Loan App"
     
 options = {
   :username => username,
@@ -30,8 +30,6 @@ options = {
   :site     => host,
   :auth_type => :basic
 }
-
-
 
   client = JIRA::Client.new(options)
 
