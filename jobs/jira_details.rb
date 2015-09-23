@@ -1,3 +1,4 @@
+
 require 'jira'
 require 'pry'
 require 'time'
@@ -24,6 +25,7 @@ host ="https://qwinix.atlassian.net"
     sprint_name ="S14-Full Loan App"
 
 
+
 options = {
   :username => username,
   :password => password,
@@ -31,7 +33,6 @@ options = {
   :site     => host,
   :auth_type => :basic
 }
-
 
   client = JIRA::Client.new(options)
 

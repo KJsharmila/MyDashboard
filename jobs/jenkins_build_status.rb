@@ -5,11 +5,11 @@ require 'time'
 JENKINS_URI ="http://jenkins.qwinixtech.com:8000/view/Loan%20List%20Project%20Pipeline/"
 
 JENKINS_AUTH = {
-  'name' => 'SasiKumar',
-  'password' => 'Qwinix2015!'
+  'name' => 'hshri',
+  'password' => 'hema@qwinix!'
 }
 
-SCHEDULER.every '1m' do
+SCHEDULER.every '1s' do
 
   json = getFromJenkins(JENKINS_URI + 'api/json?pretty=true')
 

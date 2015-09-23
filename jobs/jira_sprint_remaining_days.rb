@@ -3,8 +3,7 @@ require 'net/http'
 require 'json'
 require 'time'
 
-JIRA_URI = URI.parse("https://qwinix.atlassian.net")
-
+# JIRA_URI = URI.parse("https://qwinix.atlassian.net")
 JIRA_AUTH = {
 	'name' => 'akumar',
 	'password' => 'Qwinix123'
