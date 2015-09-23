@@ -6,8 +6,8 @@ require 'time'
 JIRA_URI = URI.parse("https://qwinix.atlassian.net")
 
 JIRA_AUTH = {
-	'name' => 'bmsantosh',
-	'password' => 'Qwinix@123'
+	'name' => 'akumar',
+	'password' => 'Qwinix123'
 }
 
 # the key of this mapping must be a unique identifier for your board, the according value must be the view id that is used in Jira
@@ -71,7 +71,7 @@ def create_request(path)
 end
 
 view_mapping.each do |view, view_id|
-	SCHEDULER.every '10m', :first_in => 0 do |id|
+	SCHEDULER.every '5m', :first_in => 0 do |id|
 		view_name = ""
 		sprint_name = ""
 		days = ""

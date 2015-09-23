@@ -6,13 +6,13 @@ require 'time'
 require 'open-uri'
 require 'cgi'
 host = "https://qwinix.atlassian.net/secure/RapidBoard.jspa?rapidView=77"
-username = "bmsantosh"
-password = "Qwinix@123"
+username = "akumar"
+password = "Qwinix123"
 project = "LOAN"
 resolved = "RESOLVED"
 done = "DONE"
 closed = "CLOSED"
-sprint_name = "Sprint 0"
+sprint_name = "S14-Full Loan App"
 
 options = {
  :username => username,

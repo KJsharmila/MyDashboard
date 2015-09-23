@@ -7,8 +7,8 @@ require 'time'
 require 'open-uri'
 require 'cgi'
 host ="https://qwinix.atlassian.net"
-    username = "bmsantosh"
-    password = "Qwinix@123"
+    username = "akumar"
+    password = "Qwinix123"
     project = "LOAN"
      to_do = "TO DO"
     open = "OPEN"
@@ -21,7 +21,7 @@ host ="https://qwinix.atlassian.net"
     done = "DONE"
     closed = "CLOSED"
 
-    # sprint_name ="Sprint 0"
+    sprint_name ="S14-Full Loan App"
 
 
 options = {
@@ -35,7 +35,7 @@ options = {
 
   client = JIRA::Client.new(options)
 
-    SCHEDULER.every '1s', :first_in => 0 do |job|
+    SCHEDULER.every '5m', :first_in => 0 do |job|
   
   todo_count = 0;
   client.Issue.jql("PROJECT = \"#{project}\" AND STATUS = \"#{to_do}\" AND SPRINT = \"#{sprint_name}\"").each do |issue|
